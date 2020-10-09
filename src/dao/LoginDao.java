@@ -17,7 +17,7 @@ public class LoginDao {
 		try {
 			String url = "jdbc:postgresql://localhost:5432/tetris";
 			String dbUser = "postgres";
-			String dbPassword = "root";
+			String dbPassword = "0926mrmr";
 			Class.forName("org.postgresql.Driver");
 			Connection con = DriverManager.getConnection(url, dbUser, dbPassword);
 
@@ -64,7 +64,7 @@ public class LoginDao {
 		try {
 			String url = "jdbc:postgresql://localhost:5432/tetris";
 			String dbUser = "postgres";
-			String dbPassword = "root";
+			String dbPassword = "0926mrmr";
 			Class.forName("org.postgresql.Driver");
 			Connection con = DriverManager.getConnection(url, dbUser, dbPassword);
 
